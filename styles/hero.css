@@ -130,9 +130,10 @@ font-weight: 400;
 .popular_trip div{
     width:50% ;
 }
-/* .popular_trip_container h3{
-
+/* .popular_trip>div{
+    flex:1;
 } */
+
 .popular_trip_container p,li{
    padding-top: 20px;
    text-align: left;
@@ -141,6 +142,7 @@ font-weight: 400;
     width: 100%;
    height: 75vh;
 }
+
 .popular_trip_container ul{
     padding-left: 30px;
 }
@@ -524,7 +526,7 @@ hr{
     }
 
     .header_descrption{
-        width: 500px;
+        width: 200px;
     height: auto;
     text-align: center;
     }
@@ -634,6 +636,22 @@ margin-right: 15px;
 width: 579px;
 height: 389px;
 padding: 10px;
+
+}
+.orange {
+ 
+
+    padding-bottom: 14px;
+    
+}
+.discounts-position-1{
+
+padding:16px;
+
+}
+.discounts-position-2{
+
+padding:16px;
 
 }
 
