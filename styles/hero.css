@@ -658,8 +658,14 @@ padding:16px;
     flex-direction: column;
 }
 .input input[type="text"],.input input[type="email"],.form-button{
-width: 80%;
+width: 100%;
 
+}
+.main_form{
+   
+    width: 40%;
+   height: 40%;
+    
 }
 .vedio-all{
     flex-direction: column;
@@ -684,8 +690,8 @@ width: 80%;
     height: 90vh;
 }
 .main_form{
-
-    padding: 10px ;
+    
+    padding: 30px  ;
 }
 hr{
     width: 90%;
