@@ -510,14 +510,19 @@ hr{
     margin-left: 180px;
 }
 @media screen and (max-width:576px) {
+
     .nav_container,.popular_trip{
         flex-direction: column;
        
     }
-    .popular_trip{
+    /* .popular_trip{
         margin-left: 15px;
         margin-right: 15px;
-    }
+    } */
+       .popular_trip{
+        padding-left: 15px;
+        padding-right: 15px;
+    } 
     .popular_trip div{
         width:100% ;
     }
@@ -619,6 +624,7 @@ margin-right: 15px;
     height:100vh;
     margin-left: 15px;
     margin-right: 15px;
+ 
 }
 .discounts-2{
     width:90%;
@@ -656,16 +662,16 @@ padding:16px;
 }
 .form_container{
     flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .input input[type="text"],.input input[type="email"],.form-button{
 width: 100%;
 
 }
-.main_form{
-   
-    width: 40%;
-   height: 40%;
-    
+
+.form_container>div{
+    width:80%
 }
 .vedio-all{
     flex-direction: column;
@@ -682,17 +688,14 @@ width: 100%;
     margin:0px 15px;
 }
 .form_container .main_form{
-    width: 100%;
-    height: 80vh;
+  
+    height: 50vh;
 }
 .form_container img{
     width: 100%;
-    height: 90vh;
+    height: 70vh;
 }
-.main_form{
-    
-    padding: 30px  ;
-}
+
 hr{
     width: 90%;
     margin-left: 15px;
