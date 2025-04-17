@@ -670,9 +670,11 @@ width: 100%;
 
 }
 
+
 .form_container>div{
-    width:80%
+    width:90%
 }
+
 .vedio-all{
     flex-direction: column;
     margin-left: 15px;
